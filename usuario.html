@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Inicio de sesión</h1>
+        <form action="usuario.html" method="post">
+            </select>
+            <label for="numero_documento">Numero documento:</label>
+            <input type="text" name="numero_documento" id="numero_documento" required>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" name="contraseña" id="contraseña" required>
+            <input type="submit" value="Iniciar sesión">
+            <a href="inicio.html" class="boton-atras">Atrás</a>
+        </form>
+    </div>
+</body>
+<style>
+    body{
+    background-color: rgba(208, 209, 209, 0.87);
+    }
+    .container {
+    width: 400px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffbc0e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.boton-atras {
+    background-color: #ffbc0e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 95%;
+
+}
+</style>
+</html>
